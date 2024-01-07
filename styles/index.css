@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    --BrightOrange: hsl(31, 77%, 52%);
+    --DarkCyan: hsl(184, 100%, 22%);
+    --VeryDarkCyan: hsl(179, 100%, 13%);
+    font-size: 15px;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section {
+    padding: 1rem;
+    max-width: 300px;
+    min-height: 40%;
+}
+
+section img {
+    padding: 2rem 0;
+}
+
+section h1 {
+    font-size: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+section p {
+    
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 14rem;
+}
+
+section button {
+    justify-content: center;
+    align-items: center;
+    padding: .7rem;
+    border-radius: 1.5rem;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white;
+    outline: none;
+}
+
+
+section:nth-child(1){
+    background-color: var(--BrightOrange);
+}
+
+section:nth-child(1) button {
+    color: var(--BrightOrange);
+}
+
+section:nth-child(2){
+    background-color: var(--DarkCyan);
+}
+
+section:nth-child(2) button{
+    color: var(--DarkCyan);
+}
+
+section:nth-child(3){
+    background-color: var(--VeryDarkCyan);
+}
+
+section:nth-child(3) button{
+    color: var(--VeryDarkCyan);
+}
